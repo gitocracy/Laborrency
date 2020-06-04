@@ -25,7 +25,18 @@ def laborrencycompute(hourly,children,danger,skills,importance,demand,quality):
               Weekly Pay is {num2words(topweekly)}{chr(10)}                     
               Monthly Pay is {num2words(topmonthly)}{chr(10)}                   
               Yearly Pay is {num2words(topyearly)}                              
-              {chr(21328)}""")                                                  
+              {chr(21328)}""") 
+    
+productivelabor = """There is one sort of labour which adds to the value of the subject upon which it is bestowed; 
+there is another which has no such effect. The former, as it produces a value, may be called productive; the latter, 
+unproductive labour. Thus the labour of a manufacturer adds, generally, to the value of the materials which he works upon, 
+that of his own maintenance, and of his master's profit. The labour of a menial servant, on the contrary, adds to the value
+of nothing. Though the manufacturer has his wages advanced to him by his master, he, in reality, costs him no expense, 
+the value of those wages being generally restored, together with a profit, in the improved value of the subject upon which 
+his labour is bestowed. But the maintenance of a menial servant never is restored. A man grows rich by employing a 
+multitude of manufacturers; he grows poor by maintaining a multitude of menial servants. The labour of the latter, 
+however, has its value, and deserves its reward as well
+— Adam Smith, The Wealth of Nations"""
                                                                                 
 if __name__ == '__main__':                                                      
     laborrencycompute(15,4,0,0,0,0,0)  
